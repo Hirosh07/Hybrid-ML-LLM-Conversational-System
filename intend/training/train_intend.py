@@ -9,4 +9,3 @@ from sklearn.metrics import classification_report
 df=pd.read_csv('../../data/intend.csv')
 x = df["text"]
 y = df["intent"]
-
