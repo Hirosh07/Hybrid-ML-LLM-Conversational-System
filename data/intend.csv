@@ -1,0 +1,55 @@
+text,intent
+hi,greeting
+hello,greeting
+hey,greeting
+good morning,greeting
+good evening,greeting
+hi there,greeting
+hello team,greeting
+hey assistant,greeting
+how are you,greeting
+is anyone there,greeting
+
+how to reset my password,faq
+i forgot my password,faq
+password reset steps,faq
+cannot login to my account,faq
+login issue help,faq
+how do i change my password,faq
+reset account password,faq
+trouble signing in,faq
+password not working,faq
+unable to login,faq
+
+what is the leave policy,policy
+explain company leave policy,policy
+how many leaves do we get,policy
+paid leave policy details,policy
+what is the holiday policy,policy
+company holidays list,policy
+work from home policy,policy
+remote work policy details,policy
+sick leave rules,policy
+casual leave policy,policy
+
+what is machine learning,knowledge
+explain supervised learning,knowledge
+what is deep learning,knowledge
+difference between ml and ai,knowledge
+what is docker,knowledge
+explain kubernetes,knowledge
+what is microservices architecture,knowledge
+explain cloud computing,knowledge
+what is data science,knowledge
+how does recommendation system work,knowledge
+
+tell me a joke,out_of_scope
+who is the best cricketer,out_of_scope
+what is your name,out_of_scope
+who created you,out_of_scope
+sing a song,out_of_scope
+tell me something funny,out_of_scope
+what is the meaning of life,out_of_scope
+do you like humans,out_of_scope
+can you dance,out_of_scope
+what is your favorite movie,out_of_scope
