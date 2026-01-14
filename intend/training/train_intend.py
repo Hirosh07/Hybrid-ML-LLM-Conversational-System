@@ -20,7 +20,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2,stratify
 model = Pipeline([
     ("tfidf", TfidfVectorizer(
         ngram_range=(1, 3),
-        min_df=2,
+        min_df=1,
         max_features=10000
     )),
     ("clf", LogisticRegression(
