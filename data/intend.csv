@@ -2,54 +2,110 @@ text,intent
 hi,greeting
 hello,greeting
 hey,greeting
+hey there,greeting
+hi there,greeting
 good morning,greeting
 good evening,greeting
-hi there,greeting
-hello team,greeting
-hey assistant,greeting
-how are you,greeting
-is anyone there,greeting
-
+good afternoon,greeting
+howdy,greeting
+what's up,greeting
+sup,greeting
+yo,greeting
+hello bot,greeting
+hi bot,greeting
+hey bot,greeting
+start,greeting
+are you there,greeting
+anyone there,greeting
+can you help me,greeting
+let’s start,greeting
+how do i use this platform,faq
+how to login,faq
 how to reset my password,faq
-i forgot my password,faq
-password reset steps,faq
-cannot login to my account,faq
-login issue help,faq
-how do i change my password,faq
-reset account password,faq
-trouble signing in,faq
-password not working,faq
-unable to login,faq
-
-what is the leave policy,policy
-explain company leave policy,policy
-how many leaves do we get,policy
-paid leave policy details,policy
-what is the holiday policy,policy
-company holidays list,policy
-work from home policy,policy
-remote work policy details,policy
-sick leave rules,policy
-casual leave policy,policy
-
+where can i find my courses,faq
+how to enroll in a course,faq
+how to start training,faq
+how do i access sessions,faq
+where is my dashboard,faq
+how to change my profile details,faq
+how to update email,faq
+how to contact support,faq
+how to raise a ticket,faq
+how to download certificate,faq
+where can i see my progress,faq
+how to complete a course,faq
+how to retake a test,faq
+how to view assignments,faq
+how do i join live sessions,faq
+how to watch recordings,faq
+how to upload assignments,faq
+how to update phone number,faq
+how do i logout,faq
+how to switch language,faq
+how do i change password,faq
+how to delete my account,faq
+what is the refund policy,policy
+tell me refund rules,policy
+is there any refund,policy
+what is cancellation policy,policy
+what is privacy policy,policy
+how is my data used,policy
+do you store personal data,policy
+what are the terms and conditions,policy
+tell me terms of service,policy
+what is user agreement,policy
+is my data secure,policy
+how long is my data stored,policy
+what is cookie policy,policy
+can i delete my data,policy
+gdpr compliance,policy
+is my information shared,policy
+who can access my data,policy
+what is data retention policy,policy
+what happens if i violate rules,policy
+account suspension policy,policy
 what is machine learning,knowledge
-explain supervised learning,knowledge
+explain artificial intelligence,knowledge
 what is deep learning,knowledge
 difference between ml and ai,knowledge
-what is docker,knowledge
-explain kubernetes,knowledge
-what is microservices architecture,knowledge
-explain cloud computing,knowledge
-what is data science,knowledge
-how does recommendation system work,knowledge
-
+what is nlp,knowledge
+explain tf idf,knowledge
+what is logistic regression,knowledge
+what is intent classification,knowledge
+what is supervised learning,knowledge
+explain classification,knowledge
+what is vectorization,knowledge
+what is text preprocessing,knowledge
+what is stemming,knowledge
+what is lemmatization,knowledge
+what is cosine similarity,knowledge
+what is large language model,knowledge
+what is chatbot,knowledge
+what is retrieval augmented generation,knowledge
+what is fine tuning,knowledge
+what is prompt engineering,knowledge
 tell me a joke,out_of_scope
-who is the best cricketer,out_of_scope
+sing a song,out_of_scope
+what is today's weather,out_of_scope
+who is the president of usa,out_of_scope
+book a cab,out_of_scope
+order food,out_of_scope
+play music,out_of_scope
+open youtube,out_of_scope
+call my friend,out_of_scope
+set an alarm,out_of_scope
+what is the stock price,out_of_scope
+cricket score today,out_of_scope
+movie recommendations,out_of_scope
+who will win election,out_of_scope
+generate image,out_of_scope
+write a poem,out_of_scope
+translate this text,out_of_scope
+solve math problem,out_of_scope
+tell me a story,out_of_scope
 what is your name,out_of_scope
 who created you,out_of_scope
-sing a song,out_of_scope
-tell me something funny,out_of_scope
-what is the meaning of life,out_of_scope
-do you like humans,out_of_scope
-can you dance,out_of_scope
-what is your favorite movie,out_of_scope
+are you human,out_of_scope
+do my homework,out_of_scope
+hack this account,out_of_scope
+give me free money,out_of_scope

@@ -19,9 +19,9 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2,stratify
 
 model = Pipeline([
     ("tfidf", TfidfVectorizer(
-        ngram_range=(1, 2),
-        min_df=1,
-        max_features=5000
+        ngram_range=(1, 3),
+        min_df=2,
+        max_features=10000
     )),
     ("clf", LogisticRegression(
         max_iter=2000,
@@ -33,6 +33,6 @@ model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
 print(classification_report(y_test, y_pred))
 
-os.mkdir('../../models', exist_ok=True)
+os.makedirs('../../models', exist_ok=True)
 joblib.dump(model, '../../models/intend_x_train.pkl')
 print("Model saved to ../../models/intend_model.pkl")
