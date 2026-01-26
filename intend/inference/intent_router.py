@@ -1,7 +1,12 @@
+import os
 import joblib
 import numpy as np
-model_path = '../../models/intend_x_train.pkl'
-model = joblib.load(model_path)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "..", "..", "models", "intent_x_train.pkl")
+
+model = joblib.load(MODEL_PATH)
+
 
 INTENT_THRESHOLD = {
     "greeting": 0.5,
@@ -25,18 +30,32 @@ def predict_intent(text):
 
     return intent, max_prob
 
-def route_intent(text):
+def route_intent(text: str):
     intent, confidence = predict_intent(text)
-    if intent == 'greeting':
-        return "hello! How can I Help You"
-    elif intent == 'faq':
-        return "Routing to FAQ handler."
-    elif intent == 'policy':
-        return "Routing to Policy handler."
-    elif intent == 'knowledge':
-        return "Routing to Knowledge Base handler."
+
+    if intent == "greeting":
+        response = "Hello! How can I help you?"
+
+    elif intent == "faq":
+        response = "Routing to FAQ handler."
+
+    elif intent == "policy":
+        response = "Routing to Policy handler."
+
+    elif intent == "knowledge":
+        response = "Routing to Knowledge Base handler."
+
     else:
-        return call_llm(text)
+        response = "fallback response from LLM"
+
+    result = {
+        "intent": str(intent),
+        "confidence": float(confidence),
+        "response": response
+    }
+
+    print("DEBUG → API response:", result)
+    return result
         
 def call_llm(text):
     return "fallback response from LLM"
