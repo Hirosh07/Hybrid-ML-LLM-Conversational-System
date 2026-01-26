@@ -21,7 +21,7 @@ model = Pipeline([
     ("tfidf", TfidfVectorizer(
         ngram_range=(1, 3),
         min_df=1,
-        max_features=10000
+        max_features=12000
     )),
     ("clf", LogisticRegression(
         max_iter=2000,
