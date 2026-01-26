@@ -64,6 +64,29 @@ who can access my data,policy
 what is data retention policy,policy
 what happens if i violate rules,policy
 account suspension policy,policy
+tell me about the company policy,policy
+tell me about company policies,policy
+explain the company policy,policy
+explain refund policy in detail,policy
+i want to know about refund policy,policy
+please explain your refund policy,policy
+tell me about your privacy policy,policy
+explain privacy and data policy,policy
+company data policy,policy
+platform privacy policy,policy
+what is your company policy,policy
+what policies does your company have,policy
+tell me the rules and policies,policy
+explain platform rules,policy
+terms policies and rules,policy
+can you tell me how my data is handled,policy
+i want to know who can access my data,policy
+is my personal data shared with others,policy
+how does the company protect user data,policy
+what happens to my data if i delete my account,policy
+can i permanently delete my personal data,policy
+how long do you keep my personal information,policy
+is my data safe on this platform,policy
 what is machine learning,knowledge
 explain artificial intelligence,knowledge
 what is deep learning,knowledge
@@ -109,3 +132,8 @@ are you human,out_of_scope
 do my homework,out_of_scope
 hack this account,out_of_scope
 give me free money,out_of_scope
+tell me about your company,out_of_scope
+what does your company do,out_of_scope
+who owns this company,out_of_scope
+where is your company located,out_of_scope
+tell me about your business,out_of_scope
